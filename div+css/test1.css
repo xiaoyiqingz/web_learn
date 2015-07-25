@@ -1,0 +1,16 @@
+/*注释*/
+.style1{
+	/*一个属性后加分号*/
+	width: 400px;
+	height: 300px;
+	background-color: red;
+	border: 1px solid green;
+	margin-left: 200px;
+	margin-top: 250px;
+	padding-top: 40px;
+}
+
+.style1 table{
+	border:1px solid blue;
+	margin-left: 50px;
+}

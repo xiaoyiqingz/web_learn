@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>登录页面</title>	
+</head>
+<body>
+
+<!--action的值应当是提交哪个页面(url)------>
+<!--method方法 指定提交数据的方式get/post-->
+<form action="xxx.html" method="get">
+
+用户名：<input type="text" name="username"/><br/>
+密&nbsp;&nbsp;码: <input type="password", name="password"/><br/>
+<input type="submit" value="登录"/>
+<input type="reset" value="重新填写"/>
+
+</form>	
+
+</body>
+</html>
+
+
+<!-- 
+安全性不同、提交数据量不同、响应不同
+get 立即响应 可以记录数据用于网页收藏
+post 安全性高， post数据不会在地址栏上显示
+-->

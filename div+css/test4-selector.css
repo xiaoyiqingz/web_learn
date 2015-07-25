@@ -1,0 +1,76 @@
+.s1{
+	background-color:pink;
+	font-weight:bold;
+	font-size:16px;  
+	color:black;
+}
+
+/*对新闻一做特别的修饰*/
+#new_special{
+	color:red;
+	font-style:italic;
+}
+
+/*给新闻三再配置一个class选择器*/
+.cls1{
+	font-style:italic;
+	text-decoration:underline;
+	background-color:silver;
+	color:blue;
+}
+
+
+/*id选择器的使用*/
+#id1{
+	background-color:gray;
+	font-size:20px;
+	color:black;
+}
+
+#id1 span{
+	color:red;
+	font-style:italic;
+}
+
+#id1 span span{
+	color:green;
+}
+
+/*html选择器*/
+body{
+	color:orange;
+}
+
+p.cls1{
+	color: purple;
+}
+
+p.cls2{
+	color: pink;
+}
+
+/*link 是伪类，表示未选择时超链接状态*/
+a:link{
+	color:black;
+	text-decoration:none;
+	font-size:24px;
+}
+
+/*hover 是伪类，表示鼠标悬浮时超链接状态*/
+a:hover{
+	text-decoration:underline;
+	font-size:40px;
+	color:green;
+}
+
+/*visited 访问过后状态*/
+a:visited{
+	color:red;
+}
+
+
+/*通配符选择器*/
+*{
+	margin-top:0px;
+	margin-left:0px;
+}

@@ -1,0 +1,32 @@
+.cls1{
+	background-color:silver;
+	font-weight:bold;	
+}
+
+#s1{
+	color:red;
+	font-style:italic;
+}
+
+#s2{
+	font-style:italic;
+	text-decoration:underline;
+}
+
+a:link{
+	color:red;
+	font-size:24px;
+	font-family:华文新魏;
+	text-decoration:none;
+}
+
+a:hover{
+	color:green;
+	font-size:40px;
+	font-family:宋体;
+	text-decoration:underline;
+}
+
+a:visited{
+	color:gray;
+}

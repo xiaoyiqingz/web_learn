@@ -1,0 +1,25 @@
+body{
+	border:1px solid red;	
+	width:800px;
+	margin:0 auto; /*auto 表示自动居中*/
+}
+
+.div1{
+	width:60px;
+	height:80px;
+	border:1px solid blue;
+/*	margin-top:10px;
+	margin-left:10px; */	
+	margin: 10px 0px 0px 10px;
+}
+
+.div1 img{
+	width:48px;
+	height:48px;
+	margin-top:6px;
+	margin-left:6px;
+}
+
+.div1 a{
+	font-size:10px;
+}

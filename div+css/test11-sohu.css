@@ -1,0 +1,111 @@
+/*整体距离左右的宽高，最好不要用百分比(或者margin控制)，这样在网页压缩时，整体
+比例也压缩，里面的内容就会排错，不如固定宽高值，页面压缩时不能显示的就不显示，
+这样里面的内容不会受影响
+*/
+
+body{
+	margin: 0 auto;
+	border: 1px solid green;
+	width:1000px;
+	font-size:12px;
+}
+
+.top{
+	background:silver;
+	height:24px;
+}
+
+.login{
+	width:400px;
+	background:pink;
+	float:left;
+}
+
+.myindex{
+	width:300px;
+	background:green;
+	float:left;
+	margin-left:50;	
+}
+
+.myhref{
+	margin-right:100px;
+	float:right;
+}
+
+.login , .myindex, .myhref{
+	height:100%;
+}
+
+/*我的logo*/
+.logo{
+	width:200px;
+	height:200px;
+	background:silver;
+	float:left;
+	margin-top:3px;
+}
+
+/*导航*/
+.navi{
+	width:790;
+	height:200px;
+	background:#7bf733;
+	float:left;
+	margin-top:3px;
+	margin-left:10px;
+}
+
+/*总体广告div*/
+.adAll{
+	width:997px;
+	height:300px;
+	background:silver;
+	margin-top:3px;
+	float:left;
+	border: 1px solid gray;
+}
+
+/*招生*/
+.adstu{
+	width:200px;
+	height:290px;
+	float:left;
+	background:#7bf733;
+	margin:5px 0 0 5px;
+}
+
+.adsport{
+	width:450px;
+	height:290px;
+	float:left;
+	background:#7bf733;
+	margin:5px 0 0 15px;
+}
+
+.adlearn{
+	width:150px;
+	height:290px;
+	float:left;
+	background:#7bf733;
+	margin:5px 0 0 15px;
+}
+
+.adpic{
+	width:140px;
+	height:290px;
+	float:left;
+	background:#7bf733;
+	margin:5px 0 0 15px;
+	border-left:1px solid red;
+}
+
+.adpic img{
+	width:140px;
+	height:140px;
+	margin-top:70px;
+}
+
+
+
+
