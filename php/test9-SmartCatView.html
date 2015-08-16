@@ -1,0 +1,59 @@
+<!---
+练习：通过点击单选按钮，切换界面，
+	  类的练习
+---->
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+
+<title>SmartCat</title>
+
+<script language= "javascript">
+	function checkType(val){
+		if (val == "calc") {
+			table1.style.display="block";
+			table2.style.display="none";
+		} else {
+			table1.style.display="none";
+			table2.style.display="block";
+		}
+		<!---window.alert("ok");--->
+	}
+</script>
+
+</head>
+
+<body>
+<h1>聪明的猫</h1>
+
+<!--
+radio 的value可用于php判断现在要进行那种处理
+-->
+
+<form action="test9-SmartCatWork.php" method="post">
+<input type="radio" name="calc" value="multi" checked="checked" onclick="checkType('calc')"/>四则运算
+<input type="radio" name="calc" value="area" onclick="checkType('area')"/> 面积计算
+<br/>
+
+<table id="table1" style="display:block">
+<tr><td>请输入第一个数字:<input type="text" name="first"/></td></tr>
+<tr><td>请输入第二个数字:<input type="text" name="second"/></td></tr>
+<tr><td>选择运算符号:&nbsp 
+<select name="oper">
+<option value="+">+</option>
+<option value="-">-</option>
+<option value="*">*</option>
+<option value="/">/</option>
+</select>
+</td></tr>
+<tr><td><input type="submit" value="请计算结果"></td></tr>
+</table>
+
+<table id="table2" style="display:none">
+<tr><td>请输入边长:<input type="text" name="length"></td></tr>
+<tr><td><input type="submit" value="请计算面积"></td></tr>
+</table>
+</form>
+
+</body>
+</html>
